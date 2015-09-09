@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="3.0" method="upgrade">
+  <name>Migration Script from JoomGallery 1.5.7 to JoomGallery 3 JUX</name>
+  <creationDate>2013/05/14</creationDate>
+  <author>JoomGallery::ProjectTeam</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <authorEmail>team@joomgallery.net</authorEmail>
+  <authorUrl>http://www.joomgallery.net</authorUrl>
+  <version>3.0</version>
+  <description>This script is able to migrate JoomGallery 1.5.7 to JoomGallery 3 JUX.</description>
+  <fileset>
+    <files target="administrator/components/com_joomgallery/helpers/migration">
+      <file>migratemvc2jux.php</file>
+      <file>migratemvc2jux.xml</file>
+    </files>
+  </fileset>
+  <languages folder="language" client="administrator">
+    <language tag="de-DE" client="administrator">de-DE/de-DE.com_joomgallery.migratemvc2jux.ini</language>
+    <language tag="en-GB" client="administrator">en-GB/en-GB.com_joomgallery.migratemvc2jux.ini</language>
+  </languages>
+  <updateservers>
+    <server type="extension" priority="1" name="JoomGallery Update Service">http://en.joomgallery.net/components/com_newversion/xml/extensions3.xml</server>
+  </updateservers>
+</extension>

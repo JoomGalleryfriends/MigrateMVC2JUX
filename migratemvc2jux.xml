@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset name="migration" description="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_NOTES">
+    <field
+      id="path2joomla-mvc2acl"
+      name="path2joomla"
+      type="text"
+      class="inputbox span12"
+      label="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_PATH2JOOMLA_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_PATH2JOOMLA_DESC"
+      required="true"
+    />
+    <field
+      id="originals-mvc2acl"
+      name="originals"
+      type="text"
+      class="inputbox span12"
+      label="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_ORIGINALS_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_ORIGINALS_DESC"
+      required="true"
+    />
+    <field
+      id="details-mvc2acl"
+      name="details"
+      type="text"
+      class="inputbox span12"
+      label="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_DETAILS_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_DETAILS_DESC"
+      required="true"
+    />
+    <field
+      id="thumbnails-mvc2acl"
+      name="thumbnails"
+      type="text"
+      class="inputbox span12"
+      label="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_THUMBNAILS_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_THUMBNAILS_DESC"
+      required="true"
+    />
+    <field
+      id="check_owner-mvc2acl"
+      name="check_owner"
+      type="radio"
+      class="btn-group"
+      label="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_CHECK_OWNER_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_CHECK_OWNER_DESC"
+      default="0"
+    >
+      <option value="0">JNO</option>
+      <option value="1">JYES</option>
+    </field>
+    <field
+      id="copy_images-mvc2acl"
+      name="copy_images"
+      type="radio"
+      class="btn-group"
+      label="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_COPY_IMAGES_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_COPY_IMAGES_DESC"
+      default="0"
+    >
+      <option value="0">JNO</option>
+      <option value="1">JYES</option>
+    </field>
+    <field
+      id="prefix-mvc2acl"
+      name="prefix"
+      type="text"
+      class="inputbox span3"
+      label="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_PREFIX_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_MVC2JUX_PREFIX_DESC"
+      size="10"
+      required="true"
+    />
+    <field
+      name="database"
+      type="joomdatabase"
+      prefix="false"
+    />
+  </fieldset>
+</form>
